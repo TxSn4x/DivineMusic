@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from SONALI import app
 
 start_txt = """
-⟢ Rᴇᴘᴏ Nʜɪ Mɪʟᴇɢᴀ Yᴀɢᴀ
+⟢ Rᴇᴘᴏ Nʜɪ Mɪʟᴇɢᴀ
  
 ⟢ Lᴀɢ Fʀᴇᴇ Rᴜɴ 24/7 Nᴏɴ Sᴛᴏᴘ
 
