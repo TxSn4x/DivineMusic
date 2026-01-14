@@ -76,10 +76,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text=" 𝗝ᴏɪɴ 🤌 ", url="https://t.me/PURVI_BOTS",
+                text=" Uᴘᴅᴀᴛᴇs ", url="https://t.me/aniweb_bots",
             ),
             InlineKeyboardButton(
-                text="🌸 𝗦ᴜᴘᴘᴏʀᴛ 🌸", url="https://t.me/PURVI_UPDATES",
+                text=" Sᴜᴘᴘᴏʀᴛ ", url="https://t.me/aniweb_nexus",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -99,10 +99,10 @@ def stream_markup(_, videoid, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="𝗝ᴏɪɴ 🤌", url="https://t.me/PURVI_BOTS",
+                text=" Uᴘᴅᴀᴛᴇs ", url="https://t.me/aniweb_bots",
             ),
             InlineKeyboardButton(
-                text="🌸 𝗦ᴜᴘᴘᴏʀᴛ 🌸", url="https://t.me/PURVI_UPDATES",
+                text=" Sᴜᴘᴘᴏʀᴛ ", url="https://t.me/aniweb_nexus",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
