@@ -76,11 +76,11 @@ confirmer = {}
 
 # ===============================================
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/e2ccdc8f93a67b995072c-37cdfd36f3dd2f4dbb.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/95e7a771b14e2da41d7c7-54f29bec291e2ad228.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/0btct9.mp4")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/0btct9.mp4")
 
 PLAYLIST_IMG_URL = "https://graph.org/file/01f6bff76d899c77153ba-112d924074f9890051.jpg"
-STATS_IMG_URL = "https://graph.org/file/9957e731dcb73475ac8af-4b752c5e52c0a28b9c.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/0btct9.mp4"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/e8d2d4c10a317e3b62bcf-f5e9bf6e7ad41e222c.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/e8d2d4c10a317e3b62bcf-f5e9bf6e7ad41e222c.jpg"
 STREAM_IMG_URL = "https://graph.org/file/e8d2d4c10a317e3b62bcf-f5e9bf6e7ad41e222c.jpg"
