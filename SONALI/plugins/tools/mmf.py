@@ -1,4 +1,3 @@
-# Authored By Certified Coders © 2025
 import os
 import textwrap
 from PIL import Image, ImageDraw, ImageFont
@@ -15,13 +14,9 @@ async def mmf(_, message: Message):
         await message.reply_text("**Give me text after /mmf to memify.**")
         return
 
-    msg = await message.reply_text("❄️")
+    msg = await message.reply_text("**Memifying this image! ✊🏻**")
     text = message.text.split(None, 1)[1]
-    try:
-        file = await app.download_media(reply_message)
-    except Exception as e:
-        await msg.edit(f"❌ Failed to download media.\nError: {e}")
-        return
+    file = await app.download_media(reply_message)
 
     meme = await drawText(file, text)
     await app.send_document(chat_id, document=meme)
@@ -57,8 +52,7 @@ async def drawText(image_path, text):
 
     if upper_text:
         for u_text in textwrap.wrap(upper_text, width=15):
-            uwl, uht, uwr, uhb = m_font.getbbox(u_text)
-            u_width, u_height = uwr - uwl, uhb - uht
+            u_width, u_height = draw.textsize(u_text, font=m_font)
 
             draw.text(
                 xy=(((i_width - u_width) / 2) - 2, int((current_h / 640) * i_width)),
@@ -99,8 +93,7 @@ async def drawText(image_path, text):
 
     if lower_text:
         for l_text in textwrap.wrap(lower_text, width=15):
-            uwl, uht, uwr, uhb = m_font.getbbox(l_text)
-            u_width, u_height = uwr - uwl, uhb - uht
+            u_width, u_height = draw.textsize(l_text, font=m_font)
 
             draw.text(
                 xy=(
