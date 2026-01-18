@@ -25,7 +25,7 @@ from SONALI.utils.thumbnails import get_thumb
 
 
 
-@capture_internal_err
+#@capture_internal_err
 async def stream(
     _,
     mystic,
